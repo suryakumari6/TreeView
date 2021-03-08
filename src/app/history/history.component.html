@@ -1,0 +1,16 @@
+<h3 class="mt-2" style="text-align: center; color: #1b6ec2;">Upload History</h3>
+<div style="margin-top: 50px">
+  <div class="row">
+    <div class="col-md-2 col-lg-3 col-xl-4 col-sm-1"></div>
+    <div class="col-md-8 col-lg-6 col-xl-4 col-sm-10">
+    <div class="col-md-2 col-lg-3 col-xl-4 col-sm-1"></div>
+    <div class="files m-3" >
+    <ul *ngFor="let item of fileArray">
+      <li>{{ item }}</li>
+    </ul>
+    <div class="d-flex" *ngIf="resetFlag">
+      <button class="btn btn-primary" (click)="Reset()">Clear</button>
+    </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,88 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+.link-active a{
+  background-color: #007bff;
+  color:white !important;
+}
+
+
+
+
+.nav-item a {
+  color: #007bff !important;
+}
+.link-active a {
+  background-color: #007bff;
+  color: white !important;
+  border-radius: 5px;
+}
+.colors {
+  padding: 10px;
+  background-color: #e1eef5;
+}
+
+.lbl {padding: 20px;
+}
+.button{
+    padding-left:40px;
+}
+.browse {
+  padding-left: 40px;
+}
+.buttonupload {
+  padding-left: 0;
+  padding-top:30px;
+}
+.bc {
+  background-color: #007bff;
+}
+.inp {
+width:350px;
+}
+
+.progress-bar {
+  height: 12px;
+  width: 0;
+}
+
+  .progress-bar.green {
+    background-color: green;
+  }
+
+  .progress-bar.yellow {
+    background-color: yellow;
+  }
+
+  .progress-bar.red {
+    background-color: red;
+  }
+.progress-bar-container {
+  background-color: #eee;
+}
+.bar {
+  colspan:"2";
+  padding-top:30px;
+
+}
+progress:not([value]) {
+  width:350px;
+  height:20px;
+}
